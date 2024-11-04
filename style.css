@@ -1,90 +1,39 @@
 html {
   height: 100%;
   width: 100%;
+  margin: 0;
 }
 body {
   height: 100%;
   width: 100%;
   margin: 0;
 }
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+
+.parent {
+  display: grid;
+  height: 300px;
+  grid-template-columns: 30px 30px 30px;
+  grid-template-rows: 30px 30px 30px;
+  gap: 20px;
+  padding: 10px;
 }
 
 
-
-.wholepage {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  background-image: linear-gradient(to top, #F0F7F1, #FFC6BF)
-}
-
-.head {
-  height: 20px;
-  width: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: black;
-  color: white;
+.start {
+  background-color: grey;
+  border: solid 3px;
   text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+.start:hover {
+  border-radius: 10px;
+  background-color: #FBD0D0;
+}
+.used1 {
+  Background-color: #DEACF5;
 }
 
-.spacer {
-  height: 10px;
+.used2 {
+    Background-color: #6237A0;
 }
-
-.iconbox {
-  display:flex;
-  flex-direction: row;
-}
-
-.icondiv {
-  flex: 1;
-  flex-direction: row;
-}
-.icons {
-  margin-left: 10px;
-  margin-top: 13px;
-  width: 30px;
-}
-.holder {
-  flex: 10;
-  display: flex;
-  
-}
-.box {
-  bposition: absolute;
-  display: flex;
-  transition: 0.5s;
-  height: 170px;
-  width: 170px;
-  margin-left:auto;
-  margin-right:auto;
-  border:solid 5px;
-  margin-top: 10px;
-  align-items: center; /*needs the div to be a flex*/
-  justify-content: center;
-  text-align: center;
-  }
-  
-  .box:hover {
-    border-radius: 50%;
-    transition: 0.5s;
-  }
-  
-  .idk {
-    border: 1px solid;
-    height: 20px;
-    width: 50px;
-    margin-top: 20px;
-    margin-left: 50px;
-    text-align: center;
-    background-color: #A6E0DE;
-  }
