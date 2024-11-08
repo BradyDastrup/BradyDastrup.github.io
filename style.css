@@ -19,7 +19,7 @@ body {
 }
 
 .break {
-  height: 10px;
+  height: 20px;
 }
 
 .material-symbols-outlined {
@@ -67,7 +67,7 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .hide {
