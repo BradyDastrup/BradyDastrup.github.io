@@ -1,13 +1,12 @@
-var count=1
+function show(var1) {
+  console.log(var1)
+  
+  document.getElementById("homepage").style.display = "none"
+  document.getElementById("div1").style.display = "none"
+  document.getElementById("div2").style.display = "none"
+  document.getElementById("div3").style.display = "none"
+  document.getElementById("div4").style.display = "none"
+  document.getElementById("div5").style.display = "none"
 
-function select(input) {
-  if (count < 10) {
-    if (count % 2 === 0) {
-      document.getElementById(input.id).className = 'used1'
-  }
-  else {
-    document.getElementById(input.id).className = 'used2'
-  }
-  count+=1
-  }
+  document.getElementById(var1).style.display = "block"
 }
