@@ -99,6 +99,9 @@ body {
   width: 100%;
 }
 
+.border {
+  border: 2px solid;
+  }
 .div5 {
   height: 100%;
   width: 100%;
