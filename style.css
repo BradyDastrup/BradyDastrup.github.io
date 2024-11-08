@@ -37,7 +37,7 @@ body {
 }
 
 .selectcontainer {
-  height: 80px;
+  flex: 2;
   bwidth: 100%;
   margin-left: 25px;
   margin-right: 25px;
@@ -63,7 +63,7 @@ body {
 }
 
 .display {
-  height: 70%;
+  flex: 7;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
