@@ -39,6 +39,8 @@ body {
 }
 .icondiv {
 border: 3px solid #424243;
+  height: 40px;
+width: 40px;
   padding: 3px;
   background: #cdcccd;
 }
