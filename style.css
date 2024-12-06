@@ -2,7 +2,6 @@ html {
   height: 100%;
   width: 100%;
 }
-
 body {
   height: 100%;
   width: 100%;
@@ -17,7 +16,6 @@ body {
   margin: 0;
   background-image: linear-gradient(to top, #ffd1d1, #ebebeb);
 }
-
 .break {
   height: 20px;
 }
@@ -29,7 +27,6 @@ body {
     "GRAD" 0,
     "opsz" 40;
 }
-
 .icon {
   position: absolute;
   left: 1%;
@@ -38,6 +35,7 @@ body {
 
 .selectcontainer {
   flex: 2;
+  bheight: 100px;
   bwidth: 100%;
   margin-left: 25px;
   margin-right: 25px;
@@ -46,17 +44,15 @@ body {
   text-align: center;
   justify-content: center;
 }
-
 .select {
   border: 1px solid;
   transition: 0.5s;
-  padding-top: 28px;
+  padding-top: 25px;
   padding-left: 30px;
   padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
 }
-
 .select:hover {
   transition: 0.5s;
   border-radius: 10px;
@@ -64,12 +60,14 @@ body {
 
 .display {
   flex: 7;
+  bheight: 70%;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
+  margin-bottom: 15px;
+  bdisplay: flex;
 }
-
 .hide {
   display: none;
 }
@@ -78,31 +76,212 @@ body {
   height: 100%;
   width: 100%;
 }
-
+.hompageimg{
+  height:100%;
+  width:100%;
+}
 .div1 {
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.rulesheader {
+  text-align: center;
+  font-size: 26px;
+  margin: 3px;
+  
+}
+.div1text {
+  flex:5;
+  bborder: 2px solid;
+  display:flex;
+}
+.div1text2 {
+  flex:5;
+  bborder: 2px solid;
+  display:flex;
+}
+.brulesimg {
+  flex:2;
+  max-width: 10%;
+  height: auto;
+  border: 5px solid;
+  align-self: center;
+}
+.rule {
+  border: 2px solid;
+  border-radius:5px;
+  flex:2;
+  margin: 5px;
+  padding: 2px;
+  
 }
 
 .div2 {
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: row;
 }
-
+.conftext {
+  color: #E2DAC4;
+  font-size: 30px;
+}
+.confimg {
+  height: auto;
+  width: 38%;
+  margin: 10px;
+}
+.confbackground {
+  background: #06033a;
+  border-radius: 5px;
+  text-align: center;
+  height: 100%;
+  width: auto;
+  
+}
 .div3 {
   height: 100%;
   width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  bposition:absolute;
+}
+.playerheadshot {
+  height: auto;
+  max-width: 70px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  flex: 2;
+}
+.blank {
+  height: auto;
+  max-width: 70px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  flex: 2;
+}
+.playerdiv {
+  background: #F4F4F4;
+  border: 1px solid;
+  height: 110px;
+  width:100%;
+  display:flex;
+  flex-direction: row;
+}
+.position {
+  text-align: left;
+}
+.playername {
+  font-size: 30px;
+  max-width: 180px;
+  text-align: left;
+}
+.playertext{
+  margin-top: 3px;
+  flex: 5;
+}
+.playertext2 {
+  margin-left: 50px;
+  display:flex;
+  flex-direction: column;
+  padding-top: 30px;
+  text-align: left;
+  flex: 5;
+}
+.playerdiv:hover {
+  background-color: #acacac;
+  transition:0.25s;
 }
 
 .div4 {
+  display: flex;
+  flex-direction: column;
+}
+.grid-container {
+  display: grid;
+  height: 100%;
+  max-width: 100%;
+  btext-align: center;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: 40% 40%;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid;
+}
+.headshot {
+  height: 80px
+}
+.titletext {
+  color: #505050;
+  font-size: 20px
+}
+.name {
+  color: #505050;
+  font-size: 28px
+}
+
+.Tom {
+  border: 1px solid;
+  display: flex;
+  flex-direction: row
+}
+.Sheryl {
+  border: 1px solid;
+}
+.Gabe {
+  border: 1px solid;
+  display: flex;
+  flex-direction: row
+}
+.Russell {
+  border: 1px solid;
+  display: flex;
+  flex-direction: row
+}
+
+.div5 {
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.seinors {
+  width: auto;
+  flex: 1;
+  border: 1px solid;
+  text-align:center;
+  display: flex;
+}
+.juniors {
+  width: auto;
+  flex: 1;
+  border: 1px solid;
+  text-align:center;
+  display: flex;
+}
+.sophomores {
+  width: auto;
+  flex: 1;
+  border: 1px solid;
+  text-align:center;
+  display: flex;
+}
+.freshman {
+  width: auto;
+  flex: 1;
+  border: 1px solid;
+  text-align:center;
+  display: flex;
 }
 
 .border {
   border: 2px solid;
   }
-.div5 {
-  height: 100%;
-  width: 100%;
-}
