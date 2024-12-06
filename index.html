@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head lang='en'>
+<head lang='en'>
     <meta charset='UTF-8'>
   <title>My Website!</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
     <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+   <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
@@ -20,7 +25,7 @@
         real_estate_agent</span
       >
       <div class="break"></div>
-      <div class="selectcontainer">
+      <div class="selectcontainer border">
         <div class="select" onclick="show('div1')">Page 1</div>
         <div class="select" onclick="show('div2')">Page 2</div>
         <div class="select" onclick="show('div3')">Page 3</div>
@@ -28,16 +33,382 @@
         <div class="select" onclick="show('div5')">Page 5</div>
       </div>
 
-      <div class="display">
+      <div class="display border">
         <div class="homepage border" id="homepage">
-          home page, some pictures if i can get them to scroll
+          <img
+            id="image1"
+            class="hompageimg"
+            src="https://images.sidearmdev.com/crop?url=https%3a%2f%2fdxbhsrqyrr690.cloudfront.net%2fsidearm.nextgen.sites%2fathletics.svu.edu%2fimages%2f2024%2f4%2f19%2f20240413_MVB_vs._Juniata_College_EF_1306_1_oJi0r.jpg&height=432&width=768&type=webp&gravity=smart"
+          />
+          <img
+            id="image2"
+            class="hompageimg hide"
+            src="https://knightathletics.com/images/2024/4/20/20240412_MVB_vs._Eastern_Mennonite_University_EF_1170.jpg?width=768&height=432&mode=crop&scale=both&format=jpg&quality=80"
+          />
+          <img
+            id="image3"
+            class="hompageimg hide"
+            src="https://knightathletics.com/images/2024/4/22/20240420_MVB_vs._NYC_University_EF_0208_f6NUl.JPG?width=768&height=432&mode=crop&scale=both&format=jpg&quality=80"
+          />
+          <img
+            id="image4"
+            class="hompageimg hide"
+            src="https://knightathletics.com/images/2024/5/17/1SV00220-Enhanced-NR.jpg?width=768&height=432&mode=crop&scale=both&format=jpg&quality=80"
+          />
+          <img
+            id="image5"
+            class="hompageimg hide"
+            src="https://knightathletics.com/images/2024/7/25/2SV09850.jpg?width=768&height=432&mode=crop&scale=both&format=jpg&quality=80"
+          />
+        </div><!--homepage-->
+        <div class="div1 hide border" id="div1">
+          <div class="rulesheader">Basic Rules!</div>
+          <div class="div1text">
+            <div class="rule rule1">
+              A volleyball game consists of two teams of six players each,
+              separated by a net.
+            </div>
+            <div class="rule rule2">
+              hit the ball back and forth over the net—until a fault occurs.
+              There is a maximum of three hits per side.
+            </div>
+            <div class="rule rule3">
+              The objective is to score points by sending the ball over the net,
+              grounding it into the opponent’s court.
+            </div>
+          </div>
+          <div class="div1text2">
+            <div class="rule rule4">
+              A ball is out if it hits an antennae, the floor completely outside
+              the court, any of the net or cables outside the antennae, the
+              referee stand or pole
+            </div>
+            <div class="rule rule5">
+              Volleyball matches are made up of sets, typically best of three or
+              best of five sets.
+            </div>
+            <div class="rule rule6">
+              The first sets are to 25 but if a tie-breaker set is needed the
+              last is to 15
+            </div>
+          </div>
+          <!--<div class='imgdiv'>
+          <img
+          class='rulesimg' src="https://media.istockphoto.com/id/1406659080/photo/ground-rules-office-supplies-on-a-white-table.jpg?s=1024x1024&w=is&k=20&c=Ml-rtRx2gig7cKwS_UG2M_Lg4mAf6LPAcMxEfdyH0Iw=">
+          </div>-->
+        </div><!--rules-->
+
+        <div class="div2 hide border" id="div2"><!--conference pic-->
+          <div class="confbackground">
+            <div class="conftext">Our Conference!</div>
+            <img
+              class="confimg"
+              src="https://dbukjj6eu5tsf.cloudfront.net/usasouth.net/images/responsive_2023/logo_main.svg"
+            />
+          </div>
         </div>
-        <div class="div1 hide border" id="div1">Rules of Volleyball</div>
-        <div class="div2 hide border" id="div2">The Teams in our Conference</div>
-        <div class="div3 hide border" id="div3">The Players on the SVU team</div>
-        <div class="div4 hide border" id="div4">Why this team is Amazing</div>
-        <div class="div5 hide border" id="div5">
-          A team picture and complete roster
+        
+        <div class="div3 hide border" id="div3">
+          The Players on the SVU team
+          <div class='playerdiv'>
+            <img class='playerheadshot' src='https://knightathletics.com/images/2023/12/5/20230928_MVB_Kristo_Bianchin_CP_0002.jpg?width=80&quality=90'>
+            <div class='playertext'>
+              <div class='position'>Outside/Middle Blocker<br> 6'4</div>
+              <div class='playername'>Kristo Bianchin</div>
+            </div>
+            <div class='playertext2'>
+              Seinor / Sao Paulo, Brazil<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/kristo-bianchin/8197">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+            <img class='playerheadshot' src='https://knightathletics.com/images/2024/3/4/1SV00040.jpg?width=80&quality=90'>
+            <div class='playertext'>
+              <div class='position'>Opposite<br> 6'5</div>
+              <div class='playername'>Jayton Hall</div>
+            </div>
+            <div class='playertext2'>
+              Seinor / Queen Creek, AZ<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/jayton-hall/7101">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+            <img class='playerheadshot' src='https://knightathletics.com/images/2023/12/5/20230928_MVB_Bryce_Srtingam_CP_0002.jpg?width=80&quality=90'>
+            <div class='playertext'>
+              <div class='position'>Setter<br> 6'4</div>
+              <div class='playername'>Bryce Stringam</div>
+            </div>
+            <div class='playertext2'>
+              Junior / Fillmore, UT<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/jayton-hall/7101">>full bio</a>
+            </div>
+          </div>
+
+          <div class='playerdiv'>
+          <div class='blank'></div>
+            <div class='playertext'>
+              <div class='position'>Setter<br> 6'</div>
+              <div class='playername'>Gehrig Tolman</div>
+            </div>
+            <div class='playertext2'>
+              Sophomore / Gilbert, AZ<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/gehrig-tolman/8209">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+            <img class='playerheadshot' src='https://knightathletics.com/images/2023/12/5/20230928_MVB_Jeremy_Brown_CP_0002.jpg?width=80&quality=90'>
+            <div class='playertext'>
+              <div class='position'>Outside<br> 6'5</div>
+              <div class='playername'>Jeremy Brown</div>
+            </div>
+            <div class='playertext2'>
+              Seinor / Mesa, AZ<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/jeremy-brown/7093">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+            <img class='playerheadshot' src='https://knightathletics.com/images/2023/12/5/20230928_MVB_James_Hughey_CP_0002.jpg?width=80&quality=90'>
+            <div class='playertext'>
+              <div class='position'>Opposite<br> 6'4</div>
+              <div class='playername'>Kimo Hughey</div>
+            </div>
+            <div class='playertext2'>
+              Sophomore / Lehi, UT<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/kimo-hughey/7094">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+            <img class='playerheadshot' src='https://knightathletics.com/images/2023/12/5/20230928_MVB_Justin_Madsen_CP_0002.jpg?width=80&quality=90'>
+            <div class='playertext'>
+              <div class='position'>Libero<br>5'10</div>
+              <div class='playername'>Justin Madson</div>
+            </div>
+            <div class='playertext2'>
+              Seinor / Las Vegas, NV<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/justin-madsen/7095">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+          <div class='blank'></div>
+            <div class='playertext'>
+              <div class='position'>Setter/Outside<br> 6'4</div>
+              <div class='playername'>Keanu Calles</div>
+            </div>
+            <div class='playertext2'>
+              Freshman / Orem, UT<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/keanu-calles/8210">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+          <div class='blank'></div>
+            <div class='playertext'>
+              <div class='position'>Libero<br> 5'10</div>
+              <div class='playername'>Mitchell Barney</div>
+            </div>
+            <div class='playertext2'>
+              Freshman / Bluffdale, UT<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/mitchell-barney/8211">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+            <img class='playerheadshot' src='https://knightathletics.com/images/2024/3/4/1SV00102.jpg?width=80&quality=90'>
+            <div class='playertext'>
+              <div class='position'>Opposite<br>6'5</div>
+              <div class='playername'>Samuel Candland</div>
+            </div>
+            <div class='playertext2'>
+              Seinor / Carlisle, PA<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/samuel-candland/7097">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+            <img class='playerheadshot' src='https://knightathletics.com/images/2023/12/5/20230928_MVB_Christian_Scheaffer_CP_0002.jpg?width=80&quality=90'>
+            <div class='playertext'>
+              <div class='position'>Outside<br>6'6</div>
+              <div class='playername'>Christian Shaffer</div>
+            </div>
+            <div class='playertext2'>
+              Seinor / Palmyra, PA<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/christian-sheaffer/7099">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+          <div class='blank'></div>
+            <div class='playertext'>
+              <div class='position'>Middle Blocker<br> 6'3</div>
+              <div class='playername'>Brady Schlensker</div>
+            </div>
+            <div class='playertext2'>
+              Freshman / Midlothian, VA<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/brady-schlensker/8212">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+            <img class='playerheadshot' src='https://knightathletics.com/images/2023/12/5/20230928_MVB_Curtis_Stone_CP_0002.jpg?width=80&quality=90'>
+            <div class='playertext'>
+              <div class='position'>Middle Blocker<br>6'7</div>
+              <div class='playername'>Curtis Stone</div>
+            </div>
+            <div class='playertext2'>
+              Seinor / Gilbert, AZ<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/curtis-stone/7100">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+            <img class='playerheadshot' src='https://knightathletics.com/images/2024/3/4/1SV00063.jpg?width=80&quality=90'>
+            <div class='playertext'>
+              <div class='position'>Setter<br>6'3</div>
+              <div class='playername'>Maxym Sutton</div>
+            </div>
+            <div class='playertext2'>
+              Seinor / Brentwood, CA<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/maxym-sutton/7091">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+            <img class='playerheadshot' src='https://knightathletics.com/images/2023/12/5/20230928_MVB_Isaac_Carrillo_CP_0002.jpg?width=80&quality=90'>
+            <div class='playertext'>
+              <div class='position'>Outside<br>6'1</div>
+              <div class='playername'>Isacc Carrillo</div>
+            </div>
+            <div class='playertext2'>
+              Sophomore / Albuquerque, NM<br> 
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/isaac-carrillo/7102">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+            <img class='playerheadshot' src='https://knightathletics.com/images/2023/12/5/20230928_MVB_Kyler_Evans_CP_0002.jpg?width=80&quality=90'>
+            <div class='playertext'>
+              <div class='position'>Middle Blocker/Opposite<br>6'8</div>
+              <div class='playername'>Kyler Evans</div>
+            </div>
+            <div class='playertext2'>
+              Seinor / Gilbert, AZ<br> 
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/kyler-evans/7103">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+          <div class='blank'></div>
+            <div class='playertext'>
+              <div class='position'>Outside<br> 6'3</div>
+              <div class='playername'>Brady Dastrup</div>
+            </div>
+            <div class='playertext2'>
+              Freshman / Colorado Springs, CO<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/brady-dastrup/8213">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+          <div class='blank'></div>
+            <div class='playertext'>
+              <div class='position'>Libero<br></div>
+              <div class='playername'>Jett Hall</div>
+            </div>
+            <div class='playertext2'>
+              Freshman / Queen Creek, AZ<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/jett-hall/8214">>full bio</a>
+            </div>
+          </div>
+          
+          <div class='playerdiv'>
+          <div class='blank'></div>
+            <div class='playertext'>
+              <div class='position'>Middle Blocker/Opposite<br> 6'7</div>
+              <div class='playername'>Jason Wang</div>
+            </div>
+            <div class='playertext2'>
+              Sophomore / Virginia Beach, VA<br>
+              <a href="https://knightathletics.com/sports/mens-volleyball/roster/brady-dastrup/8213">>full bio</a>
+            </div>
+          </div>
+          
+        </div>
+        
+        
+</div>
+        
+        <div class="div4 hide border" id="div4">
+        Coaching roster
+        <div class="grid-container">
+        
+      <div id="box_1" class="Tom">
+        <img class='headshot' src='https://knightathletics.com/images/2022/5/10/tom_peterson.jpg?width=80'>
+        <div class='nameholding'>
+        <div class='titletext'>Head Coach / Director of Volleyball</div>
+        <div class='name'>Tom Peterson</div>
+        <a href="https://knightathletics.com/sports/mens-volleyball/roster/coaches/tom-peterson/652">> Full Bio</a>
+        </div>
+      </div>
+      
+      <div id="box_2" class="Sheryl">
+      <div class='titletext'>Assistant Coach</div>
+        <div class='name'>Sheryl Peterson</div>
+        <a href=https://knightathletics.com/sports/mens-volleyball/roster/coaches/sheryl-peterson/653>> Full Bio</a>
+      </div>
+      
+      <div id="box_3" class="Gabe">
+       <img class='headshot' src='https://knightathletics.com/images/2023/1/20/20230119-DSC09595.jpg?width=80'>
+        <div class='nameholding'>
+        <div class='titletext'>Assistant Coach</div>
+        <div class='name'>Gabe Wagner</div>
+        <a href="https://knightathletics.com/sports/mens-volleyball/roster/coaches/gabe-wagner/654">> Full Bio</a>
+        </div>
+      </div>
+      <div id="box_4" class="Russell">
+      <img class='headshot' src='https://knightathletics.com/images/2024/3/4/1SV00082.jpg?width=80'>
+        <div class='nameholding'>
+        <div class='titletext'>Assistant Coach</div>
+        <div class='name'>Russell Tompkins</div>
+        <a href="https://knightathletics.com/sports/mens-volleyball/roster/coaches/russell-tompkins/655">> Full Bio</a>
+        </div>
+      </div>
+    </div>
+        </div>
+        
+        <div class="div5 hide border" id="div5"><!--roster-->
+          <div class="seinors">
+            1 Kristo Bianchin<br>
+            2 Jayton Hall<br>
+            6 Justin Madsen <br>
+            9 Samuel Candland <br>
+            10 Jeremy(Jimbo) Brown <br>
+            11 Christian Sheaffer<br>
+            14 Curtis Stone <br>
+            15 Maxym Sutton <br>
+            18 Kyler Evans <br>
+          </div>
+          <div class="juniors">
+          3 Bryce Stringam<br>
+          </div>
+          <div class='sophomores'>
+          4 Gehrig Tolman<br>
+          5 Kimo Hughey<br>
+          17 Isaac Carrillo <br>
+          22 Jason Wang<br>
+          </div>
+          <div class='freshman'>
+          7 Keanu Calles <br>
+          8 Mitchell Barney <br>
+          13 Brady Schlensker <br>
+          19 Brady Dastrup <br>
+          20 Jett Hall <br>
+          </div>
         </div>
       </div>
     </div>
