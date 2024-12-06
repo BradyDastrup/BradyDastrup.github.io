@@ -43,6 +43,9 @@ border: 3px solid #424243;
 width: 40px;
   padding: 3px;
   background: #cdcccd;
+  position: absolute;
+  left: 1%;
+  top: 1%;
 }
 .icondiv:hover {
 background: #a7a6a7;
