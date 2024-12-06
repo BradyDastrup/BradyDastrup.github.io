@@ -160,6 +160,10 @@ body {
   flex-direction: column;
   bposition:absolute;
 }
+.introplayer {
+  font-size: 30px;
+  margin:5px;
+}
 .playerheadshot {
   height: auto;
   max-width: 70px;
@@ -218,6 +222,10 @@ body {
   bmax-height: 260px;
   bposition:relative;
   border: 10px solid green;
+}
+.introcoach {
+  font-size: 20px;
+  margin:5px;
 }
 .grid-container {
   display: grid;
